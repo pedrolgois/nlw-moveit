@@ -1,0 +1,33 @@
+.CompletedChallengesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 3.5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d7d8da;
+
+    font-weight: 500;
+}
+
+.CompletedChallengesContainer span:first-child{
+    font-size: 1.25rem;
+}
+
+.CompletedChallengesContainer span:last-child{
+    font-size: 1.5rem;
+}
+
+.ChallengeActive{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ChallengeActive header{
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0 2rem 1.5rem;
+    border-bottom: 1px solid var(--gray--line);
+}
